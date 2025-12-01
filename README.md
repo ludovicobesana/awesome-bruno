@@ -10,12 +10,13 @@
 
 ## Contents
 - [Articles](#articles)
-<!--- [Reporters](#reporters)
+<!--
+- [Reporters](#reporters)
 - [CI](#ci)
 - [Bru Lang](#bru-lang)
-- [Showcases](#showcases) -->
+- [Showcases](#showcases)
+- [Guides](#guides) -->
 - [Talks](#talks)
-<!-- - [Guides](#guides) -->
 - [Example Projects](#example-projects)
 - [Community Contributions](#community-contributions)
 - [Official Resources](#official-resources)
