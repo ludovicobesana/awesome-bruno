@@ -10,17 +10,25 @@
 
 ## Contents
 - [Articles](#articles)
-- [Reporters](#reporters)
+<!--- [Reporters](#reporters)
 - [CI](#ci)
 - [Bru Lang](#bru-lang)
-- [Showcases](#showcases)
+- [Showcases](#showcases) -->
 - [Talks](#talks)
-- [Guides](#guides)
+<!-- - [Guides](#guides) -->
 - [Example Projects](#example-projects)
 - [Community Contributions](#community-contributions)
 - [Official Resources](#official-resources)
 
 ---
+
+## Articles
+
+- [Why I Switched to Bruno for API Testing: A Developer’s Journey](https://medium.com/%40vignarajj/why-i-switched-to-bruno-for-api-testing-a-developers-journey-c610b5cdea59)
+- [From Local to GitHub: Version Control in Bruno Made Easy](https://blog.usebruno.com/version-control-with-bruno-and-github) 
+- [Exploring Bruno API Testing: What Is Bruno and How to Download and Install It](https://www.echoapi.com/blog/exploring-bruno-api-testing-what-is-bruno-and-how-to-download-and-install-bruno)
+- [Bruno API Client: Using Git to Fight for Developer Freedom](https://www.git-tower.com/blog/bruno-api-client-using-git)
+- [Bruno with GitHub Actions](https://medium.com/%40mustafabawany204/bruno-with-github-actions-eab7300af362)
 
 ## Talks
 
@@ -28,6 +36,15 @@
 - [Bruno API client of the future](https://youtu.be/Nc8MtjDzJ_M)
 - [A dive into Bruno and httpYac for API testing](https://youtu.be/T3GMJdnU_o4)
 - [#BWHforFOSS S1E2: Bruno API Client, ft. Anoop M D](https://youtu.be/ZtNGbglTjps)
+
+## Example Projects
+
+- [fgrande/brunosample](https://github.com/fgrande/brunosample)
+- [Automation-Test-Starter/Bruno-API-Test-Starter](https://github.com/Automation-Test-Starter/Bruno-API-Test-Starter)
+- [lucasjct/bruno-api-testing](https://github.com/lucasjct/bruno-api-testing)
+- [IAM-Jah/CyberArk-REST-API-Bruno](https://github.com/IAM-Jah/CyberArk-REST-API-Bruno)
+- [ellucian-developer/integration-bruno](https://github.com/ellucian-developer/integration-bruno)
+
 
 ## Community Contributions
 
