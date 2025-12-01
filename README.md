@@ -26,6 +26,9 @@
 
 - [Introducing Bruno](https://youtu.be/7bSMFpbcPiY)
 - [Bruno API client of the future](https://youtu.be/Nc8MtjDzJ_M)
+- [A dive into Bruno and httpYac for API testing](https://youtu.be/T3GMJdnU_o4)
+- [#BWHforFOSS S1E2: Bruno API Client, ft. Anoop M D](https://youtu.be/ZtNGbglTjps)
+
 ---
 
 ## Contributing
