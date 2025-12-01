@@ -10,16 +10,19 @@
 
 ## Contents
 - [Articles](#articles)
-<!--
-- [Reporters](#reporters)
-- [CI](#ci)
-- [Bru Lang](#bru-lang)
-- [Showcases](#showcases)
-- [Guides](#guides) -->
 - [Talks](#talks)
 - [Example Projects](#example-projects)
 - [Community Contributions](#community-contributions)
 - [Official Resources](#official-resources)
+
+<!--
+TODO: Add content also for this sections
+- [Reporters](#reporters)
+- [CI](#ci)
+- [Bru Lang](#bru-lang)
+- [Showcases](#showcases)
+- [Guides](#guides) 
+-->
 
 ---
 
