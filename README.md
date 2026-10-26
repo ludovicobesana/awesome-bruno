@@ -32,6 +32,7 @@ Bruno users, API developers, QA engineers, and automation teams can use this lis
 - [Getting Started](https://docs.usebruno.com/introduction/getting-started) - Official introduction to installing Bruno and sending a first request.
 - [Migrating from Postman](https://docs.usebruno.com/get-started/import-export-data/postman-migration) - Import a Postman export into Bruno.
 - [OpenAPI Sync](https://docs.usebruno.com/open-api/openapi-sync) - Keep a Bruno collection aligned with an OpenAPI specification.
+- [OpenCollection YAML Format](https://docs.usebruno.com/opencollection-yaml/overview) - Official guide to Bruno's YAML-based, open collection format.
 - [Version Control with Bruno and GitHub](https://blog.usebruno.com/version-control-with-bruno-and-github) - Put Bruno collections under Git version control and collaborate through GitHub.
 
 ## Talks & Videos
