@@ -1,0 +1,30 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/links.yml"
+      - ".lychee.toml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: link-check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check Markdown links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml README.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+          fail: true
+          jobSummary: true
