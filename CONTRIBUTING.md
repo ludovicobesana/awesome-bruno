@@ -1,38 +1,38 @@
-# Contribution Guidelines
+# Contributing to Awesome Bruno
 
-Thank you for contributing to this project! 🎉  
-Please note that this project follows the [Contributor Code of Conduct](code-of-conduct.md). By participating, you agree to abide by its terms.
+Thank you for helping keep this list useful for Bruno users. By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
----
+## Suggesting a resource
 
-## Before You Start
+Before opening a pull request, search the README and open issues to avoid duplicate submissions. A resource should be:
 
-1. **Check Existing Issues:** Look at the [issues](https://github.com/ludovicobesana/awesome-maestro/issues) to see if your idea is already discussed or open a new one.
-2. **Fork the Repository:** Fork and clone the repo to work locally. [Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
-3. **Follow Coding Standards:** Use the project's conventions, format your code, and add tests for new features.
+- Directly relevant to Bruno and useful to API developers, QA engineers, or automation teams.
+- Publicly accessible, reasonably maintained, and described accurately.
+- Placed in the most relevant README category.
+- Distinct from resources already listed; explain the different value when a similar link exists.
 
----
+Please do not submit affiliate links, unrelated promotion, link farms, or resources whose primary value is marketing.
 
-## Submitting a Pull Request (PR)
+## Opening a pull request
 
-1. **Keep It Focused:** Address one issue or feature per PR.
-2. **Write a Clear Description:** Explain what your PR does and reference related issues (e.g., "Closes #42").
-3. **Test Your Changes:** Ensure all tests pass locally and add new ones if necessary.
-4. **Document Updates:** Update the README or comments if applicable.
+1. Fork the repository and create a focused branch.
+2. Add one concise entry in alphabetical order where practical, using this format:
 
----
+   ```markdown
+   - [Resource name](https://example.com) - Clear, factual description.
+   ```
 
-## Updating Your PR
+3. Check that the URL works, the title matches the destination, and the resource is in the correct category.
+4. Run the available local checks:
 
-If changes are requested during review:
-- **Edit Your PR:** No need to open a new one—just update the existing PR. [Guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md).
-- **Respond to Feedback:** Address all comments to align with maintainers’ suggestions.
+   ```sh
+   # Install once with Homebrew or Cargo:
+   # brew install lychee
+   # cargo install lychee --locked
+   npx -y awesome-lint README.md
+   lychee --config .lychee.toml README.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+   ```
 
----
+5. Open a focused pull request explaining what you added, changed, or removed and why.
 
-## Code of Conduct
-
-We follow the [Contributor Covenant Code of Conduct](code-of-conduct.md).  
-Please interact respectfully and inclusively. 🚀  
-
-Thank you for your contributions! 💖
+Maintainers review submissions for relevance, availability, clarity, placement, and duplication. They may request changes or decline a link that does not meet these criteria.

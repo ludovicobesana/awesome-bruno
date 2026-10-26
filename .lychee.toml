@@ -1,0 +1,13 @@
+max_concurrency = 4
+max_retries = 3
+retry_wait_time = 2
+timeout = 20
+
+# These providers return 403 to unauthenticated automated checks. They remain
+# curated links and are reviewed manually when their destination changes.
+exclude = [
+  "^https://medium\\.com/",
+  "^https://stackoverflow\\.com/",
+  "^https://www\\.npmjs\\.com/",
+  "^https://x\\.com/",
+]
