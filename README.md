@@ -90,6 +90,7 @@ Bruno users, API developers, QA engineers, and automation teams can use this lis
 - [Download Bruno](https://www.usebruno.com/downloads) - Desktop downloads and package-manager installation options.
 - [Manifesto](https://www.usebruno.com/manifesto) - Bruno's product principles and long-term vision.
 - [npm: @usebruno/cli](https://www.npmjs.com/package/@usebruno/cli) - npm package for the Bruno command-line interface.
+- [Pricing](https://www.usebruno.com/pricing) - Plans and licensing information.
 - [Roadmap](https://www.usebruno.com/roadmap) - Public product roadmap.
 - [Support](https://www.usebruno.com/support) - Official support resources.
 
